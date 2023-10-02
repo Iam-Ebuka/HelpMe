@@ -124,10 +124,29 @@
 }
 .topicAndButton{
     max-width: 548px;
+    display: flex;
+    justify-content: space-around;
+    height: 312px;
+    flex-direction: column;
 }
 .yyyya {
  background-color: #120B48;
  color: white;
  padding: 22px 24px 22px 24px;
  font-family: 'Work Sans', sans-serif;
+ width: 239px;
+ border-radius: 8px;
+ border: none;
+}
+.Heaf {
+    font-size: 64px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    max-width: 489px;
+}
+.heafpa {
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    max-width: 548px;
 }
