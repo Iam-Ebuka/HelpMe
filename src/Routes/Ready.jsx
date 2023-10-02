@@ -5,6 +5,7 @@ import img from '../images/copy Link.png'
 import Button from '../components/Button'
 import vif from '../images/video.png'
 import './Ready.css'
+import Footer from '../components/Footer'
 
 function Ready() {
   return (
@@ -72,6 +73,7 @@ function Ready() {
                 <p className='do'>Don’t have an account? <span style={{color:'#120B48'}}>Create account</span></p>
             </div>
         </div>
+        <Footer />
     </div>
   )
 }
