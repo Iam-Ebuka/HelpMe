@@ -87,7 +87,7 @@
 }
 .heroSection {
     display: flex;
-    width: 1240px;
+    width: 1180px;
     justify-content: space-between;
     align-items: center;
     margin: 50px auto 150px auto;
@@ -137,12 +137,14 @@
  width: 239px;
  border-radius: 8px;
  border: none;
+ margin-top: 50px;
 }
 .Heaf {
     font-size: 64px;
     font-family: 'Sora', sans-serif;
     font-weight: 700;
     max-width: 489px;
+    margin-bottom: 20px;
 }
 .heafpa {
     font-weight: 400;
