@@ -1,0 +1,22 @@
+.foot{
+    height: 347px;
+    background-color: hsl(247, 73%, 16%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.foot div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:200px;
+}
+.mnpa{
+    width: 137px;
+    height: 40px;
+    margin-top: -80px;
+}

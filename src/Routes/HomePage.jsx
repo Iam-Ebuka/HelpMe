@@ -14,7 +14,7 @@ import two from '../images/twoPeople.png'
 import boig from '../images/rec-1.cb7888a47e24214aeb105805426a8300.svg.png'
 import './HomePage.css'
 import Header from '../components/Header'
-
+import Footer from '../components/Footer'
 
 
 function HomePage() {
@@ -22,18 +22,15 @@ function HomePage() {
     <div>
        <Header/>
         <div className='heroSection'>
+        <img className='mmm' src={ge} alt='t'/>
+         <img className='mmma' src={gr} alt='d'/>
             <div className='topicAndButton'>
                 <h1 className='Heaf'>Show Them Don't Just Tell</h1>
                 <p className='heafpa'>Help your friends and loved ones by creating and sending videos on how to get things done on a website.</p>
                  <button className='yyyya'>Install HelpMeOut  -&gt;</button>
             </div>
-            
-                
-                    <img className='mmm' src={ge} alt='t'/>
-                    <img className='mmma' src={gr} alt='d'/>
-                    
-               
-            
+         
+          
             <div className='picturs'>
                 <img className='r' src={man} alt='d'/>
                 <img className='s' src={two} alt='r'/>
@@ -96,7 +93,7 @@ function HomePage() {
                 </div>
             </div>
         </div>
-        <div className='footer'></div>
+        <Footer />
     </div>
   )
 }
