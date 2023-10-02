@@ -77,7 +77,26 @@ function Video() {
         </div>
         <div style={{width: '100%', display:'flex', justifyContent:'center', alignItems:'center'}}>
             <div className='grid' style={{width: "100% ", display:'grid', gridTemplateRows:'46px 1fr 40px', justifyContent:'start',gridTemplateColumns: '100px 1fr'}}>
-                <video style={{width:"calc(100% - 110px)", borderRadius: '10px',gridRow:'2/3',gridColumn:'2/3', alignSelf: 'start', maxWidth:'1240px', padding:'16px', border:'1px solid rgba(182,179,198,0.6', }} controls muted autoPlay><source src={videoData.url} type='video/mp4'></source></video>
+            <video
+  style={{
+    width: "calc(100% - 110px)",
+    borderRadius: '10px',
+    gridRow: '2/3',
+    gridColumn: '2/3',
+    alignSelf: 'start',
+    maxWidth: '1240px',
+    padding: '16px',
+    border: '1px solid rgba(182, 179, 198, 0.6',
+  }}
+  controls
+  
+  autoPlay
+>
+  <source src={videoData.url} type='video/mp4'></source>
+  <source src={videoData.webmUrl} type='video/webm'></source>
+  <source src={videoData.aviUrl} type='video/avi'></source>
+</video>
+
             </div>
         </div>
         <div className='inputsss'>

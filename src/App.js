@@ -4,16 +4,18 @@ import Video from './Routes/Video'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Signin from './Routes/Signin';
 import Ready from './Routes/Ready';
+import Align from './Routes/Align';
+import HomePage from './Routes/HomePage'
 
 function App() {
   const router = createBrowserRouter([
     {
-      path:"/",
-      element:<Home />
+      path:"/ho",
+      element:<Home/>
     },
     {
       path:"/home",
-      element:<Home />
+      element:<HomePage />
     },{
         path:"/signin",
         element: <Signin />
@@ -24,6 +26,9 @@ function App() {
     },{
       path:'/ready',
       element:<Ready />
+    },{
+      path: '/',
+      element: <HomePage />
     }
   ])
   return (
