@@ -1,0 +1,124 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 10%;
+}
+.signinlogo{
+    width: 137px;
+    height: 40px;
+
+}
+.signContainer {
+    max-width: 475px;
+    margin: 30px auto 0 auto;
+}
+.signinTopic{
+    max-width: 321px;
+    margin: 0 auto;
+    text-align: center;
+}
+.login{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #141414;
+    line-height: 47px;
+    margin-bottom: 5px;
+}
+.signSub{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color:#434343;
+    line-height: 21px;
+    font-size: 14px;
+}
+.signingoogle{
+    height: 120px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.links {
+    width: 100%;
+    min-width: 300px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #141414;
+    height: 48px;
+    text-align: center;
+    border: 1px solid #141414;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.signlogos{
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-right: 4px;
+}
+.signbut {
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-left: 4px;
+} 
+.horizontal-rule {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.horizontal-rule hr {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color:#B9C2C8; 
+}
+
+.horizontal-rule .text {
+    padding: 0 10px;
+    color:#B9C2C8; 
+}
+label{
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-top: 20px;
+}
+input{
+    width: 100%;
+    padding: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #B6B3C6;
+
+}
+.signisub {
+    font-weight: 500;
+    background-color: #120B48;
+    color: white;
+    border:none;
+    border-radius: 8px;
+    padding:16px 20px 16px 20px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+}

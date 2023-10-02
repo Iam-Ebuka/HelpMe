@@ -1,0 +1,234 @@
+.readyContent {
+    min-height: 970px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: calc(100% - 150px);
+    margin: 100px auto 0 auto;
+    gap: 20px;
+    max-height: 600px;
+}
+.firsthalf {
+    grid-column: 1/2;
+    max-width: 550px;
+    
+}
+.secondhalf {
+    grid-column: 2/3;
+    max-width: 550px;
+    margin-top: 10px;
+    border-left: 1px solid #CFCFCF;
+    padding-left: 30px;
+}
+.readyVideo {
+    font-weight: 700;
+    font-size: 45px;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 20px;
+
+}
+nameholder {
+    max-width: 557px;
+}
+.name{
+    font-weight: 500px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'Sora', sans-serif;
+    display: block;
+    
+}
+.nameVideo{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Sora', sans-serif;
+    margin-right: 10px;
+
+}
+.check {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
+}
+.copy{
+    height: 32px;
+    width: 32px
+}
+.copyIcon{
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+nnn{
+    max-width: 550px;
+}
+.vid {
+ 
+    width: 100%;
+    min-width: 300px;
+
+
+}
+.name {
+    font-family: "Sora", sans-serif;
+    color: #727272;
+    font-weight: 500;
+    margin-top: 30px;
+
+}
+.nameVideo{
+    color: #413C6D;
+    font-weight: 600;
+    font-size: 24px;
+}
+.block{
+    margin-top: 50px;
+    width: 100%;
+    height: 68px;
+    border: 1px solid #E7E7ED;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    border-radius: 16px;
+    background-color: #E7E7ED;
+}
+.inputeee {
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;;
+    font-size: 18px;
+    color: rgba(67, 67, 67, 0.8);
+}
+.inputSend {
+    border-radius: 8px;
+    padding: 10px 18px 10px 18px;
+    background-color: rgba(96, 92, 132, 1);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+
+}
+.videoUrl {
+    margin-top: 50px;
+    font-family: 'Sora', sans-serif;
+    font-size: 600px;
+    font-size: 20px;
+}
+.secondBlock {
+    margin-top: 20px;
+    width: 100%;
+    height: 68px;
+    border: 0.5px solid #929292;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #E7E7ED;
+}
+.vidls {
+    color: #4B4B4B;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.copscopy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #120B48;
+    padding: 10px 18px 10px 18px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.copscopy img {
+    width: 16.67px;
+    height: 16.67px;
+}
+.say{
+    font-size: 16px;
+    font-family: 'Sora', sans-serif;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.trans {
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 20px;
+}
+#menu {
+    width: 169px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #CFCFCF;
+    color: #CFCFCF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+.gripppa{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 16px;
+    color: #141414;
+    font-family:  'Work Sans', sans-serif;
+    margin-top: 20px;
+    line-height: 26px;
+
+    
+}
+.grippcont {
+    margin-top: 70px;
+}
+#d {
+
+
+}
+#r {
+    max-width: 411px;
+    
+}
+#q {
+    max-width: 411px;
+}
+#u{
+    max-width: 411px;
+}
+.downSec {
+    height: 300px;
+    margin-top: 100px;
+}
+.center {
+    max-width: 747px;
+    margin: auto;
+    text-align: center;
+}
+.downsSE {
+    color: #141414;
+    font-size: 24px;
+    font-weight: 600;
+    max-width: 673px;
+}
+.center button {
+    background-color: #120B48;
+    padding: 16px 32px 16px 32px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.do{
+    color: #7E7E7E;
+    font-size: 24px;
+    font-weight: 600px;
+    font-family: 'Sora', sans-serif;
+}

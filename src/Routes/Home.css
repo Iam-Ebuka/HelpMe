@@ -1,0 +1,26 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height:'56px';
+    margin-top:40px;
+    display:flex; 
+    justify-content:center;     
+    align-items:center;
+}
+.headcontain {
+    width: calc(100% - 262px); 
+    display:flex; 
+    justify-content:space-between;     
+    align-items:center;
+}
+.moviesgrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px
+}

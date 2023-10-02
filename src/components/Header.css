@@ -1,0 +1,36 @@
+.Navbar{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavbarCushon{
+    width: calc(100% - 200px);
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hoome {
+    width: 137px;
+    height: 40px;
+}
+.middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 253px;
+    height: 39px;
+    font-family:'Work Sans', sans-serif;;
+
+}
+.end {
+    width:151px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

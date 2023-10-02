@@ -1,0 +1,33 @@
+.butshare{
+    min-height: 48px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 534px;
+    flex-wrap: wrap;
+}
+.share{
+    width: 141px;
+    border: 1px solid #0A0628;
+    margin-right: 15px;
+    background: transparent;
+    border-radius: 6px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px
+}
+.facebook{
+
+    height: 24px;
+    width: 24px;
+
+}
+.yeh{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #08051E;
+    font-size: 16px;
+
+}
