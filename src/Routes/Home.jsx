@@ -46,8 +46,7 @@ function Home() {
 
   return (
     <div className='body'>
-      <center><p style={{color:'red' , fontSize: "10px"}}>Please note: i will soon be done with home page. To see my progress press Logo. </p></center>
-      <center><p style={{color: 'red', fontSize:"10px"}}>Press tiles to see vidoes recorded. press menus after pressing logo to see other pages</p></center>
+      
         <header className='header' >
           <div className='headcontain' style={{}}>
           <Link to={'/ho'} style={{ textDecoration: 'none', color: 'inherit' }}>

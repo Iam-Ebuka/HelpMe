@@ -13,8 +13,9 @@ function Header() {
                     <Link to={"../ready"} style={{textDecoration:"none", color:"inherit"}}>
                     <p>Features</p>
                     </Link>
+                    <Link to={'../'} style={{textDecoration:"none", color:"inherit"}}>
                     <p>How It Works</p>
-                    
+                    </Link>
                 </div>
                 <Link to={'../signin'} style={{textDecoration:'none',color:'inherit'}}>
                 <div className='end'>

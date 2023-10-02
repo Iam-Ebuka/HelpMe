@@ -4,12 +4,13 @@ import './Signin.css'
 import google from '../images/Google svg.png'
 import facebook from '../images/Facebook2 svg.png'
 import Button from '../components/Button'
+import { Link } from 'react-router-dom'
 
 export default function Signin() {
   return (
     <div>
         <header className="head">
-            <div ><img className='signinlogo' src={help} alt='logo'></img></div>
+       <Link to={'../ho'} style={{textDecoration:"none", color:"inherit"}} >    <div ><img className='signinlogo' src={help} alt='logo'></img></div></Link>
         </header>
         <div className="signContainer">
             <div className='signinTopic'>
