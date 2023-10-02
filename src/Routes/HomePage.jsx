@@ -2,7 +2,7 @@ import React from 'react'
 import ge from '../images/grid.136a9256d16888900db0.svg.png'
 import gr from '../images/grid.136a9256d16888900db0.svg (1).png'
 import man from '../images/man on computer.png'
-import mo from '../images/woman-using-smartphone-technology 2.png'
+import mo from '../images/woman-using-smartphone-technology 2 (1).png'
 import ic from '../images/Icon placeholder.png'
 import ds from '../images/Icon placeholder (2).png'
 import dd from '../images/Icon placeholder (1).png'
@@ -25,19 +25,19 @@ function HomePage() {
             <div className='topicAndButton'>
                 <h1 className='Heaf'>Show Them Don't Just Tell</h1>
                 <p className='heafpa'>Help your friends and loved ones by creating and sending videos on how to get things done on a website.</p>
-                 <button>Install HelpMeOut  -&gt</button>
+                 <button className='yyyya'>Install HelpMeOut  -&gt;</button>
             </div>
             <div className='otherHalf'>
-                <div>
+                <div className='ya'>
                     <img src={ge} alt='t'/>
                     <img src={gr} alt='d'/>
-                   
+                    
                 </div>
             </div>
             <div className='picturs'>
-                <img src={man} alt='d'/>
-             
-                <img scr={mo} alt='d'/>
+                <img className='r' src={man} alt='d'/>
+                <img className='s' src={two} alt='r'/>
+                <img className='esa' src={mo} alt='d'/>
             </div>
         </div>
         <div className='features'>

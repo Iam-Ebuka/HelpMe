@@ -85,4 +85,49 @@
     height: 67px;
     width: 68px;
 }
+.heroSection {
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto 150px auto;
+    
+}
+.ya {
+    display: none;
 
+}
+.picturs {
+    display:grid;
+    grid-template-columns: minmax(1fr, 305px) minmax(1fr, 305px);
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    align-items: center;
+    justify-items: center;
+
+}
+ .picturs img {
+    width: 100%;
+    border-radius: 5px;
+ }
+.r {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.s{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.esa{
+    grid-column: 2/3;
+    grid-row: span 2;
+}
+.topicAndButton{
+    max-width: 548px;
+}
+.yyyya {
+ background-color: #120B48;
+ color: white;
+ padding: 22px 24px 22px 24px;
+ font-family: 'Work Sans', sans-serif;
+}
