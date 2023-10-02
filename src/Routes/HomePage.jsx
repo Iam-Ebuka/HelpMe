@@ -27,13 +27,13 @@ function HomePage() {
                 <p className='heafpa'>Help your friends and loved ones by creating and sending videos on how to get things done on a website.</p>
                  <button className='yyyya'>Install HelpMeOut  -&gt;</button>
             </div>
-            <div className='otherHalf'>
-                <div className='ya'>
-                    <img src={ge} alt='t'/>
-                    <img src={gr} alt='d'/>
+            
+                
+                    <img className='mmm' src={ge} alt='t'/>
+                    <img className='mmma' src={gr} alt='d'/>
                     
-                </div>
-            </div>
+               
+            
             <div className='picturs'>
                 <img className='r' src={man} alt='d'/>
                 <img className='s' src={two} alt='r'/>

@@ -91,11 +91,20 @@
     justify-content: space-between;
     align-items: center;
     margin: 50px auto 150px auto;
+    position: relative;
     
 }
-.ya {
-    display: none;
 
+.mmm{
+    position:absolute;
+    top: -40px;
+    left: 900px 
+
+}
+.mmma{
+    position: absolute;
+    top: 200px;
+    left:500px
 }
 .picturs {
     display:grid;
@@ -109,6 +118,7 @@
  .picturs img {
     width: 100%;
     border-radius: 5px;
+    z-index: 99999;
  }
 .r {
     grid-row: 1/2;
@@ -128,6 +138,7 @@
     justify-content: space-around;
     height: 312px;
     flex-direction: column;
+    position: relative;
 }
 .yyyya {
  background-color: #120B48;
@@ -152,3 +163,4 @@
     font-size: 20px;
     max-width: 548px;
 }
+
