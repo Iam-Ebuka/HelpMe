@@ -48,7 +48,7 @@ function Home() {
     <div className='body'>
         <header className='header' >
           <div className='headcontain' style={{}}>
-          <Link to={'/'} style={{ textDecoration: 'none', color: 'inherit' }}>
+          <Link to={'/ho'} style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className='log' style={{width: "137px", display: "flex", justifyContent:"space-between", alignItems:"center", height: "40px"}}>
               <img src={logo} alt="logo" style={{height: "40px", width: "40px"}} />
               <h3 style={{fontWeight:'700', fontSize:'16px', color:'#100A42'}}>HelpMeOut</h3>
