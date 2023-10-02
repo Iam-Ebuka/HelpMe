@@ -10,10 +10,13 @@ function Header() {
             <div className='NavbarCushon'>
                 <img src={hoome} alt='logo' className='hoome'/>
                 <div className='middle'>
+                    <Link to={"../ready"} style={{textDecoration:"none", color:"inherit"}}>
                     <p>Features</p>
+                    </Link>
                     <p>How It Works</p>
+                    
                 </div>
-                <Link to={'./ho'} style={{textDecoration:'none'}}>
+                <Link to={'../signin'} style={{textDecoration:'none',color:'inherit'}}>
                 <div className='end'>
                     <p>Get Started</p>
                 </div>
