@@ -167,4 +167,108 @@
     font-size: 20px;
     max-width: 548px;
 }
+@media screen and (max-width: 1100px) {
+    .mmm{
+        display: none;
+    }
+    .mmma{
+        display: none;
+    }
+    .heroSection{
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 80px auto 100px auto;
+
+    }
+    .picturs{
+        display: none;
+    }
+    .topicAndButton{
+        margin-left: 40px;
+        
+    }
+    .feat{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 200px);
+        height: 454px;
+        flex-basis: 600px;
+        gap: 70px;
+    
+    }
+    .features {
+        margin-bottom: 300px
+    }
+    .hello{
+        margin-bottom: 500px; 
+    }
+}
+@media screen and (max-width: 750px) {
+    .Heaf {
+        font-size: 32px;
+        font-family: 'Sora', sans-serif;
+        font-weight: 700;
+        max-width: 400px;
+        margin-bottom: 5px;
+    }
+    .heafpa {
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        max-width: 400px;
+    }
+    .topicAndButton{
+        max-width: 548px;
+        display: flex;
+        justify-content: space-around;
+        height: 200px;
+        flex-direction: column;
+        position: relative;
+    }
+    .yyyya {
+        background-color: #120B48;
+        color: white;
+        padding: 22px 24px 22px 24px;
+        font-family: 'Work Sans', sans-serif;
+        width: 239px;
+        border-radius: 8px;
+        border: none;
+        margin-top: 30px;
+       }
+       .feat{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 200px);
+        height: 454px;
+        flex-basis: 600px;
+        margin-bottom: 50px;
+      
+    
+    }
+    .hello{
+        margin-bottom: 800px; 
+    }
+    .features {
+        margin-bottom: 250px
+    }
+    .sample {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: space-around;
+        height: 100%;
+        max-width: 548px;
+        margin-bottom: 20px;
+    
+    }
+    .hhhh{
+        margin-bottom: 100px;
+    }
+}
 

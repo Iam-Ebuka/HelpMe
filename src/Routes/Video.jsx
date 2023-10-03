@@ -9,6 +9,8 @@ import biro from '../images/edit.png'
 import copy from '../images/copy Link.png'
 import fram from '../images/Frame 45.png'
 import fra from '../images/Fra.png'
+import Button from '../components/Button'
+import img from '../images/copy Link.png'
 
 function Video() {
     const {_id} = useParams()
@@ -78,38 +80,42 @@ function Video() {
         <div style={{width: '100%', display:'flex', justifyContent:'center', alignItems:'center'}}>
             <div className='grid' style={{width: "100% ", display:'grid', gridTemplateRows:'46px 1fr 40px', justifyContent:'start',gridTemplateColumns: '100px 1fr'}}>
             <video
-  style={{
-    width: "calc(100% - 110px)",
-    borderRadius: '10px',
-    gridRow: '2/3',
-    gridColumn: '2/3',
-    alignSelf: 'start',
-    maxWidth: '1240px',
-    padding: '16px',
-    border: '1px solid rgba(182, 179, 198, 0.6',
-  }}
-  controls
-  
-  autoPlay
->
-  <source src={videoData.url} type='video/mp4'></source>
-  <source src={videoData.webmUrl} type='video/webm'></source>
-  <source src={videoData.aviUrl} type='video/avi'></source>
-</video>
+            style={{
+                width: "calc(100% - 110px)",
+                borderRadius: '10px',
+                gridRow: '2/3',
+                gridColumn: '2/3',
+                alignSelf: 'start',
+                maxWidth: '1240px',
+                padding: '16px',
+                border: '1px solid rgba(182, 179, 198, 0.6',
+                }}
+                controls
+                
+                autoPlay
+                >
+                <source src={videoData.url} type='video/mp4'></source>
+                <source src={videoData.webmUrl} type='video/webm'></source>
+                <source src={videoData.aviUrl} type='video/avi'></source>
+                </video>
 
             </div>
         </div>
-        <div className='inputsss'>
-            <div className="inputContain" >
-                <div className='send'>
-                   <img src={fram} alt="pid" />
-                </div>
-                <div className='send'>
-                    <img src={fra} alt='fra' />
-                </div>
-            </div>
-        
-        </div>
+        <div className='ll'>
+        <div className='jaow'>
+        <div className='block'>
+                        <p className='inputeee'>enter email of reciever</p>
+                        <button className='inputSend'>Send</button>
+                    </div>
+              </div>  
+              <div className='jaow'>    
+                    <div className='secondBlock'>
+                        <p className='vidls'>https://www.helpmeout/Untitled_Video_20232509</p>
+                        <button className='copscopy'><img src={img} />copy</button> 
+                    </div>
+                    </div>
+                    </div>
+        <Button />
     </div>
   
   )

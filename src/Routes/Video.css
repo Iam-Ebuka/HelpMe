@@ -43,15 +43,8 @@
     font-size:24px; 
     font-weight:700
 }
-inputsss{
-    width:100%; 
-    margin-top:40px;
-    height:72px;
-}
-.send img{
-  height:72px 
-    
-}
+
+
 .copylink img{
     height: 72px
 }
@@ -81,6 +74,27 @@ inputsss{
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
 
 }
+inputsss{
+    width:100%; 
+    margin-top:40px;
+    height:72px;
+}
+.send img{
+    max-height:72px; 
+
+      
+  }
+  .jaow {
+    min-width: 500px;
+    flex-wrap: wrap;
+   
+
+  }
+  .ll {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 @media screen and (width: 800px) {
     .send{
         width: 80%;

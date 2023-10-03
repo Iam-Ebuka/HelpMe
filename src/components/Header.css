@@ -34,3 +34,15 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 750px) {
+    .middle , .end{
+        display: none;
+    }
+    .NavbarCushon{
+        width: calc(100% - 100px);
+        height: 95px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

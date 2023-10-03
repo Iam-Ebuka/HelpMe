@@ -22,8 +22,8 @@ function HomePage() {
     <div>
        <Header/>
         <div className='heroSection'>
-        <img className='mmm' src={ge} alt='t'/>
-         <img className='mmma' src={gr} alt='d'/>
+          <img className='mmm' src={ge} alt='t'/>
+          <img className='mmma' src={gr} alt='d'/>
             <div className='topicAndButton'>
                 <h1 className='Heaf'>Show Them Don't Just Tell</h1>
                 <p className='heafpa'>Help your friends and loved ones by creating and sending videos on how to get things done on a website.</p>
