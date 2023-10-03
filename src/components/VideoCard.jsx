@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function VideoCard(props) {
   return (
-    <Link className="linkCard" style={{ textDecoration: 'none', color: 'inherit' }} to={`videos/${props._id}`}>
+    <Link className="linkCard" style={{ textDecoration: 'none', color: 'inherit' }} to={`../videos/${props._id}`}>
     <div className='card' style={{width:'557px', height:"322px", border:'1px solid #b6b3c6', borderRadius:"10px"}}>
         <img src={pic} alt="logo" style={{margin:'16px',width:'525px', height:"208px" }}/>
         <div style={{height:'50px', width:"525px", marginTop:'1px', display:"flex", paddingLeft:'16px'}}>

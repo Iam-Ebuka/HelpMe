@@ -10,7 +10,7 @@ export default function Signin() {
   return (
     <div>
         <header className="head">
-       <Link to={'../ho'} style={{textDecoration:"none", color:"inherit"}} >    <div ><img className='signinlogo' src={help} alt='logo'></img></div></Link>
+       <Link to={'../'} style={{textDecoration:"none", color:"inherit"}} >    <div ><img className='signinlogo' src={help} alt='logo'></img></div></Link>
         </header>
         <div className="signContainer">
             <div className='signinTopic'>

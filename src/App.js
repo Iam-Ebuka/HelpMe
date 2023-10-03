@@ -10,7 +10,7 @@ import HomePage from './Routes/HomePage'
 function App() {
   const router = createBrowserRouter([
     {
-      path:"/",
+      path:"/ho",
       element:<Home/>
     },
     {
@@ -27,7 +27,7 @@ function App() {
       path:'/ready',
       element:<Ready />
     },{
-      path: '/ho',
+      path: '/',
       element: <HomePage />
     }
   ])

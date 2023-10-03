@@ -48,13 +48,13 @@ function Home() {
     <div className='body'>
         <header className='header' >
           <div className='headcontain' style={{}}>
-          <Link to={'/ho'} style={{ textDecoration: 'none', color: 'inherit' }}>
+          <Link to={'../'} style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className='log' style={{width: "137px", display: "flex", justifyContent:"space-between", alignItems:"center", height: "40px"}}>
               <img src={logo} alt="logo" style={{height: "40px", width: "40px"}} />
               <h3 style={{fontWeight:'700', fontSize:'16px', color:'#100A42'}}>HelpMeOut</h3>
             </div>
             </Link>
-            <Link to={"/signin"} style={{ textDecoration:'none', color:'inherit'}}>
+            <Link to={"../signin"} style={{ textDecoration:'none', color:'inherit'}}>
             <div className='userIden' style={{width: '163px', display:"flex", justifyContent:"space-between", alignItems:'center'}} >
               <img src={person} alt='icon' style={{width:"40px", height: '40px'}} />
               <p style={{fontWeight:"400", fontSize: "16px", color: '#141414'}}>John Mark</p>
