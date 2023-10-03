@@ -46,7 +46,6 @@ function Home() {
 
   return (
     <div className='body'>
-      
         <header className='header' >
           <div className='headcontain' style={{}}>
           <Link to={'/ho'} style={{ textDecoration: 'none', color: 'inherit' }}>
